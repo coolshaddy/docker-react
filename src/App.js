@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-           demo website
+           demo website changed in demo(new branch instead of feature) branch
         </p>
         <a
           className="App-link"
