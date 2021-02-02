@@ -14,10 +14,10 @@ deploy:
  access_key_id: "$AWS_ACCESS_KEY"
  secret_access_key: "$AWS_SECRET_KEY"
  region: "us-east-1"
- app: "docker"
- env: "Docker-env"
+ app: "demo"
+ env: "Demo-env"
  bucket: "elasticbeanstalk-us-east-1-349382015220"
- bucket_path: "docker"
+ bucket_path: "demo"
  on:
   branch: master
  
